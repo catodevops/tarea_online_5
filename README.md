@@ -54,3 +54,5 @@ Todos estos archivos son excluidos dado que no aportan ningún tipo de funcional
 - Podría causar conflictos con ciertas máquinas
 - Excluirlos hace más legible el contenido del repositorio
 - Se considera mala práctica subir archivos no vitales y potencialmente problemáticos a un repositorio.
+
+### Commit con GPG para el apartado 2.1
