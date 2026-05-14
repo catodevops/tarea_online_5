@@ -8,3 +8,5 @@ __pycache__/
 .venv/
 env/
 *.sqlite3
+secrets.env
+secrets2.env

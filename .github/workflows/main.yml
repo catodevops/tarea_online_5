@@ -1,0 +1,20 @@
+name: Escaneo de Gitleaks
+
+on:
+  push:
+    branches:
+      - main
+      - desarrollo-seguro
+
+jobs:
+  escanear-gitleaks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+
+      - name: Ejecutar escaneo
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
