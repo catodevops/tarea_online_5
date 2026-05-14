@@ -2,3 +2,9 @@ cambios.txt
 __pycache__/
 *.pyc
 .vscode/
+
+# Requisitos Apartado 1.3
+*.log
+.venv/
+env/
+*.sqlite3
