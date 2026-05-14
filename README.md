@@ -32,7 +32,7 @@ python main.py
 |---------|-------------------|--------------------|
 |v0.1-----|6ef1ce1------------|Inicialización del proyecto|
 |v0.2-----|12aecd9------------|Creación de branch desarrollo-seguro|
-|v1.0-----|-------------------|Implementación del código funcional, README y .gitignore|
+|v1.0-----|e381e05------------|Implementación del código funcional, README y .gitignore|
 
 ## Checklist de seguridad
 
